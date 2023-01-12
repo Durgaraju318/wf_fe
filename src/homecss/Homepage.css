@@ -1,0 +1,50 @@
+#mainHeader{
+    background: black;
+    color: darkgoldenrod;
+    text-align: center;
+    line-height: 2.6em;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.commonContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#mainNavigation{
+    background: darkgoldenrod;
+    color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#mainNavigation ul{
+    padding: 0;
+    margin: 7px;
+    list-style: none;
+}
+
+#mainNavigation li{
+    display: inline;
+    padding: 10px;
+}
+
+#mainNavigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mainNavigation li:hover{
+    -webkit-text-fill-color: antiquewhite;
+}
