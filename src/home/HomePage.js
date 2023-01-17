@@ -1,9 +1,9 @@
+import { ImageSliderData } from '../data/ImageSliderData';
 import '../homecss/Homepage.css';
-import avatarimg from '../homeimages/avatar 2.jpg';
-import gfimg from "../homeimages/godfather.png";
-import interimg from "../homeimages/interstellar.jpeg";
+import ImageSlider from '../home/ImageSlider';
 
 function HomePage() {
+ 
     return (
 <div>
    <header id="mainHeader">
@@ -23,12 +23,10 @@ function HomePage() {
         </ul>
     </div> 
     </nav>
-
-   <div>
-    <img src={avatarimg} alt="avatarposter"/>
-    <img src={gfimg} alt="godfatherposter"/>
-    <img src={interimg} alt="interstellarposter"/>
-   </div>
+    <br/>
+    <div >    
+        <ImageSlider slides={ImageSliderData} />
+    </div>
    
 </div>
     );
